@@ -12,7 +12,7 @@
 
     "background": {
         //"persistent": false,
-        "scripts": ["jquery.min.js", "background.js"]
+        "scripts": ["jquery.min.js", "background.js", "bg_dy.js"]
     },
 
     "content_scripts": [{

@@ -22,7 +22,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 });
 
 
-// 屏蔽广告
-chrome.webRequest.onBeforeRequest.addListener(function (details) {
-    return { cancel: true };
-}, {urls: ["*://pubads.g.doubleclick.net/*"]}, ["blocking"]);
