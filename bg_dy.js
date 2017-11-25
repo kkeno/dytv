@@ -29,7 +29,6 @@ chrome.webRequest.onBeforeRequest.addListener(function (details) {
 
 chrome.webRequest.onResponseStarted.addListener(function (details) {
 	console.log("onResponseStarted", details)
-
 }, {urls: filterList});
 
 

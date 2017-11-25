@@ -42,5 +42,11 @@ function sendChatMsg(msg) {
 	})
 }
 
-
+function recQuestion() {
+	define(["douyu/com/exjsonp"], function (e) {
+	
+	
+	})
+}
+recQuestion()
 

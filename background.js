@@ -1,6 +1,7 @@
 
 function sendWindowsNotify(title, msg) {
-    var notificationId, callback
+    var notificationId = ""
+    var callback = function() {}
     var options = {
         type : "basic",
         iconUrl : "icon.png",
